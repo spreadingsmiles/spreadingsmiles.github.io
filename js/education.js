@@ -2,7 +2,7 @@ let jsondata;
 let ImageObject = {};
 
 // fetch("https://spreading-smiles.herokuapp.com/educationImages")
-fetch("educationImages")
+fetch("https://spreading-smiles-always.herokuapp.com/educationImages")
   .then(function(u) {
     return u.json();
   })

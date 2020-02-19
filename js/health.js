@@ -1,7 +1,7 @@
 let jsondata;
 let ImageObject = {};
 
-fetch("healthImages")
+fetch("https://spreading-smiles-always.herokuapp.com/healthImages")
   .then(function(u) {
     return u.json();
   })
